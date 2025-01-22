@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "aaron-bond.better-comments",
+    "biomejs.biome",
+    "christian-kohler.path-intellisense",
+    "editorconfig.editorconfig",
+    "ms-vsliveshare.vsliveshare",
+    "oderwat.indent-rainbow",
+    "usernamehw.errorlens",
+    "visualstudioexptteam.intellicode-api-usage-examples",
+    "visualstudioexptteam.vscodeintellicode"
+  ],
+}

@@ -1,0 +1,29 @@
+{
+  "name": "express-template",
+  "version": "0.0.1",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/main.js",
+    "dev": "node --watch-path=./src ./src/main.js | pino-pretty",
+    "test": "node ./tests/*"
+  },
+  "author": "Josh",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "@types/express": "^5.0.0",
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.12",
+    "drizzle-orm": "^0.38.4",
+    "express": "^5.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "pino-http": "^10.4.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "drizzle-kit": "^0.30.2",
+    "pino-pretty": "^13.0.0"
+  }
+}
